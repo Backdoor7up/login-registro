@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>pantalla_login</class>
+ <widget class="QWidget" name="pantalla_login">
+    <property name="geometry"><rect><x>0</x><y>0</y><width>500</width><height>600</height></rect></property>
+  <property name="windowTitle"><string>Iniciar sesión</string></property>
+  <layout class="QVBoxLayout" name="layout_pantalla">
+    <property name="leftMargin"><number>24</number></property><property name="topMargin"><number>24</number></property>
+    <property name="rightMargin"><number>24</number></property><property name="bottomMargin"><number>24</number></property>
+   <item alignment="Qt::AlignmentFlag::AlignCenter">
+    <widget class="QFrame" name="frame_tarjeta">
+      <property name="minimumSize"><size><width>440</width><height>0</height></size></property>
+    <property name="maximumSize"><size><width>440</width><height>16777215</height></size></property>
+     <layout class="QVBoxLayout" name="layout_tarjeta">
+    <property name="leftMargin"><number>34</number></property><property name="topMargin"><number>32</number></property>
+    <property name="rightMargin"><number>34</number></property><property name="bottomMargin"><number>32</number></property><property name="spacing"><number>9</number></property>
+      <item><widget class="QLabel" name="label_titulo"><property name="text"><string>Iniciar sesión</string></property><property name="alignment"><set>Qt::AlignmentFlag::AlignCenter</set></property></widget></item>
+      <item><widget class="QLabel" name="label_subtitulo"><property name="text"><string>Ingresá con tu cuenta para continuar.</string></property><property name="alignment"><set>Qt::AlignmentFlag::AlignCenter</set></property><property name="wordWrap"><bool>true</bool></property></widget></item>
+      <item><widget class="QLabel" name="label_usuario"><property name="text"><string>Usuario o correo electrónico</string></property></widget></item>
+      <item><widget class="QLineEdit" name="input_usuario"><property name="placeholderText"><string>ejemplo@correo.com</string></property></widget></item>
+      <item><widget class="QLabel" name="label_password"><property name="text"><string>Contraseña</string></property></widget></item>
+      <item><widget class="QLineEdit" name="input_password"><property name="echoMode"><enum>QLineEdit::EchoMode::Password</enum></property><property name="placeholderText"><string>Tu contraseña</string></property></widget></item>
+      <item><widget class="QCheckBox" name="chk_mostrar_password"><property name="text"><string>Mostrar contraseña</string></property></widget></item>
+      <item><widget class="QLabel" name="label_mensaje"><property name="minimumSize"><size><width>0</width><height>24</height></size></property><property name="text"><string/></property><property name="wordWrap"><bool>true</bool></property><property name="alignment"><set>Qt::AlignmentFlag::AlignCenter</set></property></widget></item>
+      <item><widget class="QPushButton" name="btn_login"><property name="text"><string>Iniciar sesión</string></property><property name="default"><bool>true</bool></property></widget></item>
+      <item><widget class="QLabel" name="label_registro"><property name="text"><string>¿Todavía no tenés cuenta?</string></property><property name="alignment"><set>Qt::AlignmentFlag::AlignCenter</set></property></widget></item>
+      <item><widget class="QPushButton" name="btn_ir_registro"><property name="text"><string>Registrate</string></property><property name="flat"><bool>true</bool></property></widget></item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/><connections/>
+</ui>

@@ -1,0 +1,83 @@
+QWidget {
+    background-color: #ffffff;
+    color: #183137;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+
+QFrame#frame_tarjeta {
+    background-color: #ffffff;
+    border: 1px solid #d1dfda;
+    border-top: 5px solid #e58262;
+    border-radius: 14px;
+}
+
+QLabel#label_titulo {
+    color: #123f46;
+    font-size: 22pt;
+    font-weight: 700;
+}
+
+QLabel#label_subtitulo, QLabel#label_registro {
+    color: #596c70;
+}
+
+QLineEdit {
+    background-color: #f8fbf9;
+    border: 1px solid #b8cbc4;
+    border-radius: 7px;
+    padding: 10px 11px;
+    selection-background-color: #177d79;
+}
+
+QLineEdit:focus {
+    border: 2px solid #177d79;
+}
+
+QCheckBox {
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+QPushButton#btn_login, QPushButton#btn_registrar {
+    background-color: #177d79;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 16px;
+    font-weight: 700;
+}
+
+QPushButton#btn_login:hover, QPushButton#btn_registrar:hover {
+    background-color: #126b68;
+}
+
+QPushButton#btn_login:pressed, QPushButton#btn_registrar:pressed {
+    background-color: #0e5856;
+}
+
+QPushButton#btn_ir_registro, QPushButton#btn_volver_login {
+    color: #126d69;
+    border: none;
+    padding: 5px;
+    font-weight: 600;
+}
+
+QPushButton#btn_ir_registro:hover, QPushButton#btn_volver_login:hover {
+    color: #0e5856;
+    text-decoration: underline;
+}
+
+QLabel#label_mensaje[tipo="error"] {
+    color: #a12e31;
+    font-weight: 600;
+}
+
+QLabel#label_mensaje[tipo="exito"] {
+    color: #176b4b;
+    font-weight: 600;
+}
