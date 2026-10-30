@@ -87,6 +87,10 @@ La aplicación no usa usuarios en memoria ni continúa en modo simulado si falla
 
 - Al no poner la contraseña correcta en el inicio de sesion.
 
+![Error de Duplicacion](capturas/errordupe.png)
+
+- Al querer crear un usuario que ya está creado en el registro de usuario.
+
 ### Aciertos
 
 ![Acierto Contraseña](capturas/aciertopass.png)
