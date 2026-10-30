@@ -61,6 +61,16 @@ La aplicación no usa usuarios en memoria ni continúa en modo simulado si falla
 ## Capturas
 
 ![Diseño en Designer](capturas/designer.png)
-![Login](capturas/login.png)
-![Registro](capturas/registro.png)
+![Login Final con Estilo](capturas/login.png)
+![Registro Final con Estilo](capturas/registro.png)
+![Registro en SQL](capturas/sql.png)
 
+### Errores
+- Al no poner las credenciales correctas o no poder conectar a SQL.
+![Error SQL](capturas/errorsql.png)
+- Al no poner la contraseña correcta.
+![Error de Login en Contraseña](capturas/errorpass.png)
+### Aciertos
+- Al poner la contraseña correcta en el inicio de sesion.
+![Acierto Contraseña](capturas/aciertopass.png)
+![Acierto Registro](capturas/aciertoreg.png)
